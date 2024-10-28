@@ -1,0 +1,76 @@
+:root {
+    font-size: 62.5%;
+    color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container {
+    background-image: linear-gradient(120deg, #503a93 0%, #3d7fc1 100%);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.age-calculator {
+    padding: 10%;
+    max-width: 920px;
+}
+
+.age-top h1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+span {
+    color: #ffff76;
+}
+
+.input-box {
+    padding: 2.5rem;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 1rem;
+    margin-block: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    font-size: 1.7rem;
+    padding: 14px 20px;
+    margin-right: 2rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    position: relative;
+}
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 12px;
+    left: 330px;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-size: 28px;
+    cursor: pointer;
+}
+
+.input-box button {
+    font-size: 1.5rem;
+    background-color: #ffff76;
+    padding: 15px 30px;
+    font-weight: 500;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 2rem;
+}
